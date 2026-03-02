@@ -5,6 +5,9 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CareerGuide from "./pages/CareerGuide";
+import CareerOLevels from "./pages/CareerOLevels";
+import CareerALevels from "./pages/CareerALevels";
+import CareerUndergrad from "./pages/CareerUndergrad";
 import StartupPredictor from "./pages/StartupPredictor";
 import NotFound from "./pages/NotFound";
 
@@ -19,6 +22,9 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/career-guide" element={<CareerGuide />} />
+          <Route path="/career-guide/olevels" element={<CareerOLevels />} />
+          <Route path="/career-guide/alevels" element={<CareerALevels />} />
+          <Route path="/career-guide/undergrad" element={<CareerUndergrad />} />
           <Route path="/startup-predictor" element={<StartupPredictor />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
