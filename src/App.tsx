@@ -22,6 +22,9 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/career-guide" element={<CareerGuide />} />
+          <Route path="/career-guide/olevels" element={<CareerOLevels />} />
+          <Route path="/career-guide/alevels" element={<CareerALevels />} />
+          <Route path="/career-guide/undergrad" element={<CareerUndergrad />} />
           <Route path="/startup-predictor" element={<StartupPredictor />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
