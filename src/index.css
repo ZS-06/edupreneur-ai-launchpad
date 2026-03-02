@@ -6,23 +6,23 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    --background: 215 45% 10%;
+    --foreground: 210 20% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card: 215 40% 14%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover: 215 40% 14%;
+    --popover-foreground: 210 20% 95%;
 
     --primary: 210 65% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 215 15% 92%;
-    --secondary-foreground: 215 25% 15%;
+    --secondary: 215 35% 18%;
+    --secondary-foreground: 210 20% 95%;
 
-    --muted: 210 15% 95%;
-    --muted-foreground: 215 12% 50%;
+    --muted: 215 35% 15%;
+    --muted-foreground: 215 15% 60%;
 
     --accent: 175 42% 42%;
     --accent-foreground: 0 0% 100%;
@@ -30,8 +30,8 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
+    --border: 215 30% 20%;
+    --input: 215 30% 20%;
     --ring: 210 65% 45%;
 
     --radius: 0.75rem;
@@ -47,10 +47,10 @@
 
     /* Custom tokens */
     --hero-gradient: linear-gradient(135deg, hsl(210 65% 45%) 0%, hsl(175 42% 42%) 100%);
-    --surface-elevated: 0 0% 100%;
-    --shadow-soft: 0 4px 24px -4px hsl(215 25% 15% / 0.08);
-    --shadow-card: 0 8px 32px -8px hsl(215 25% 15% / 0.12);
-    --shadow-cta: 0 12px 40px -8px hsl(210 65% 45% / 0.25);
+    --surface-elevated: 215 40% 14%;
+    --shadow-soft: 0 4px 24px -4px hsl(215 45% 5% / 0.4);
+    --shadow-card: 0 8px 32px -8px hsl(215 45% 5% / 0.5);
+    --shadow-cta: 0 12px 40px -8px hsl(210 65% 45% / 0.4);
   }
 
   .dark {
