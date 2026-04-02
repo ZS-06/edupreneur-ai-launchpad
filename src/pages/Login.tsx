@@ -10,7 +10,7 @@ const Login = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // TODO: integrate with backend auth
-    console.log("Login attempt:", { username, password });
+    navigate("/dashboard");
   };
 
   return (
