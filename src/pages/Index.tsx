@@ -39,7 +39,22 @@ const Index = () => {
             — this is the place for you.
           </p>
 
-          <div className="mt-10 flex items-center justify-center gap-2 text-muted-foreground/50">
+          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:gap-4">
+            <button
+              onClick={() => navigate("/login")}
+              className="flex h-12 w-48 items-center justify-center rounded-lg bg-hero-gradient font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            >
+              Log In
+            </button>
+            <button
+              onClick={() => navigate("/signup")}
+              className="flex h-12 w-48 items-center justify-center rounded-lg border border-border font-medium text-foreground transition-colors hover:bg-secondary"
+            >
+              Sign Up
+            </button>
+          </div>
+
+          <div className="mt-8 flex items-center justify-center gap-2 text-muted-foreground/50">
             <span className="text-sm tracking-widest uppercase">Scroll to explore</span>
             <svg className="h-4 w-4 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

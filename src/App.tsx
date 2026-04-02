@@ -9,6 +9,8 @@ import CareerOLevels from "./pages/CareerOLevels";
 import CareerALevels from "./pages/CareerALevels";
 import CareerUndergrad from "./pages/CareerUndergrad";
 import StartupPredictor from "./pages/StartupPredictor";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +28,8 @@ const App = () => (
           <Route path="/career-guide/alevels" element={<CareerALevels />} />
           <Route path="/career-guide/undergrad" element={<CareerUndergrad />} />
           <Route path="/startup-predictor" element={<StartupPredictor />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
