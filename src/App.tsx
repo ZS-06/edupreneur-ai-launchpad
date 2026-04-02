@@ -9,6 +9,8 @@ import CareerOLevels from "./pages/CareerOLevels";
 import CareerALevels from "./pages/CareerALevels";
 import CareerUndergrad from "./pages/CareerUndergrad";
 import StartupPredictor from "./pages/StartupPredictor";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
